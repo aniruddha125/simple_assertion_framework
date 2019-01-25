@@ -49,5 +49,45 @@ public class Tests {
     public void testValidationService6() {
     	asserter.expressionAsserter("Aniruddha==NULL");
     }
+    
+    @Test
+    public void testValidationService7() {
+    	asserter.expressionAsserter("1234=isNumber");
+    }
+    
+    @Test
+    public void testValidationService8() {
+    	asserter.expressionAsserter("1234!=isNumber");
+    }
+    
+    @Test
+    public void testValidationService9() {
+    	asserter.expressionAsserter("Aniruddha=Contains Ani");
+    }
+    
+    @Test
+    public void testValidationService10() {
+    	asserter.expressionAsserter("Aniruddha!=Contains Ani");
+    }
+    
+    @Test
+    public void testValidationService11() {
+    	asserter.expressionAsserter("123>901");
+    }
+    
+    @Test
+    public void testValidationService12() {
+    	asserter.expressionAsserter("1234>901");
+    }
+    
+    @Test
+    public void testValidationService13() {
+    	asserter.expressionAsserter("123<901");
+    }
+    
+    @Test
+    public void testValidationService14() {
+    	asserter.expressionAsserter("1234<901");
+    }
 
 }
