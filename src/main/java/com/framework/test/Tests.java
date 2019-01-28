@@ -89,5 +89,30 @@ public class Tests {
     public void testValidationService14() {
     	asserter.expressionAsserter("1234<901");
     }
+    
+    @Test
+    public void testValidationService15() {
+    	asserter.expressionAsserter("1234>=901");
+    }
+    
+    @Test
+    public void testValidationService16() {
+    	asserter.expressionAsserter("1234<=1234");
+    }
+    
+    @Test
+    public void testValidationService17() {
+    	asserter.expressionAsserter("1234<=1233");
+    }
+    
+    @Test
+    public void testValidationService18() {
+    	asserter.expressionAsserter("1234>=1234");
+    }
+    
+    @Test
+    public void testValidationService19() {
+    	asserter.expressionAsserter("1234>=1235");
+    }
 
 }
