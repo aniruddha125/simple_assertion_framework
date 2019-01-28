@@ -1,22 +1,22 @@
-package com.paypal.assertion;
+package com.framework.assertion;
 
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Contains implements Assertion {
+public class IsNumber implements Assertion {
 
 	@Override
 	public boolean asserts(String expression) {
 		
 		String[] expressionItems= expression.split("=");
-		return expressionItems[0].contains(expressionItems[1].split(" ")[1]);
+		return StringUtils.isNumeric(expressionItems[0]);
 
 	}
 
 	@Override
 	public String getExpression() {
-		return "Contains";		
+		return "isNumber";		
 	}
-	
 
 }

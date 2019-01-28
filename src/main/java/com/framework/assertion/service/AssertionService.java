@@ -1,9 +1,9 @@
-package com.paypal.assertion.service;
+package com.framework.assertion.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.testng.Assert;
 
-import com.paypal.assertion.Equals;
+import com.framework.assertion.Equals;
 
 public class AssertionService {
 

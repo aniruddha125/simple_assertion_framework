@@ -1,12 +1,12 @@
-package com.paypal.config;
+package com.framework.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
-import com.paypal.assertion.service.AssertionService;
+import com.framework.assertion.service.AssertionService;
 
-@ComponentScan("com.paypal")
+@ComponentScan("com.framework")
 @Configuration
 public class AssertionConfiguration {
 

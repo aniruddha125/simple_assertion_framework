@@ -1,4 +1,4 @@
-package com.paypal.assertion;
+package com.framework.assertion;
 
 import org.springframework.stereotype.Component;
 

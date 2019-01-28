@@ -1,4 +1,4 @@
-package com.paypal.test;
+package com.framework.test;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,8 +7,8 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.support.AnnotationConfigContextLoader;
 
-import com.paypal.assertion.service.AssertionService;
-import com.paypal.config.AssertionConfiguration;
+import com.framework.assertion.service.AssertionService;
+import com.framework.config.AssertionConfiguration;
 
 
 @RunWith(SpringJUnit4ClassRunner.class)
