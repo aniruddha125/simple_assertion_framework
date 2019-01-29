@@ -34,6 +34,5 @@ public class AssertionService {
 						"Expression : " + expression + " failed validation ");
 			}
 		}
-
 	}
 }

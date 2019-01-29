@@ -114,5 +114,16 @@ public class Tests {
     public void testValidationService19() {
     	asserter.expressionAsserter("1234>=1235");
     }
+    
+    @Test
+    public void testValidationService20() {
+    	asserter.expressionAsserter("Ani isEmpty");
+    }
+    
+    @Test
+    public void testValidationService21() {
+    	String str="";
+    	asserter.expressionAsserter(str+" isEmpty");
+    }
 
 }
